@@ -1,0 +1,45 @@
+<div>
+    <h2>Seleccione el tipo de ruta</h2>
+    <br>
+    <br>
+    <select data-dojo-attach-point="ruta">
+        <option value="bici">Rutas Bicicleta</option>
+        <option value="sende">Rutas Senderismo</option>
+        <option value="monta">Rutas Montañismo</option>
+        <option value="auto">Rutas Auto</option>
+        <option value="cabal">Rutas Cabalgata</option>
+        <option value="kayak">Rutas Kayak</option>
+        <option value="motor">Rutas Barco motor</option>
+        
+    </select>
+    <br><hr>
+    <h2>Seleccione los parámetros del área de Influencia</h2>
+    <br>
+    <br>
+    <input type="number" id="distance" size="5" value="10" />
+    <select id="unit" style="width:100px;">
+      <option value="UNIT_KILOMETER">Kilómetros</option>
+      <option value="UNIT_METER">Metros</option>
+      <option value="UNIT_STATUTE_MILE">Millas</option>
+      <option value="UNIT_FOOT">Pies</option>
+      <option value="UNIT_NAUTICAL_MILE">Millas naúticas</option>
+    </select>
+    <br><hr>
+
+    <h2>Listado de hoteles</h2>
+    <hr>
+    <table data-dojo-attach-point="listadohoteles" id="listaH"></table>
+          
+   
+    <h2>Listado de refugios</h2>
+    <hr>
+    <table data-dojo-attach-point="listadorefugios" id="listaR"></table>
+
+    <h2>Listado de campings</h2>
+    <hr>
+    <table data-dojo-attach-point="listadocamping" id="listaC"></table>
+
+    <h2>Listado de guarderias</h2>
+    <hr>
+    <table data-dojo-attach-point="listadoguarderia" id="listaG"></table>
+</div>
